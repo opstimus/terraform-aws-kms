@@ -17,7 +17,6 @@ variable "workload" {
   type        = string
   description = "Workload tag"
   default     = "default"
-
 }
 
 variable "enable_key_rotation" {
