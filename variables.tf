@@ -13,10 +13,10 @@ variable "resource_name" {
   description = "Resource name created KMS for"
 }
 
-variable "workload" {
-  type        = string
-  description = "Workload tag"
-  default     = "default"
+variable "tags" {
+  type        = map(string)
+  description = "A map of tags to assign to the resource."
+  default     = {}
 }
 
 variable "enable_key_rotation" {
