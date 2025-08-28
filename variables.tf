@@ -13,6 +13,13 @@ variable "resource_name" {
   description = "Resource name created KMS for"
 }
 
+variable "workload" {
+  type        = string
+  description = "Workload tag"
+  default     = "default"
+
+}
+
 variable "enable_key_rotation" {
   type    = bool
   default = true

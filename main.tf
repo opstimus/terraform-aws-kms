@@ -4,7 +4,7 @@ resource "aws_kms_key" "main" {
   enable_key_rotation     = var.enable_key_rotation
   tags = {
     "Name"   = "${var.project}-${var.environment}-${var.resource_name}"
-    Workload = "${var.resource_name}"
+    Workload = var.workload
   }
 }
 
