@@ -9,13 +9,13 @@ This Terraform module provisions an AWS KMS (Key Management Service) key and an 
 | Name | Version | 
 |------|---------| 
 | terraform | >= 1.3.0 | 
-| aws | >= 4.0 | 
+| aws | >= 6.0 | 
 
 ## Providers 
 
 | Name | Version | 
 |------|---------| 
-| aws | >= 4.0 | 
+| aws | >= 6.0 | 
 
 ## Inputs 
 
