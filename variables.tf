@@ -26,8 +26,8 @@ variable "enable_key_rotation" {
 
 variable "key_policy_statements" {
   type = list(object({
-    sid     = optional(string, "")
-    effect  = string
+    sid    = optional(string, "")
+    effect = string
     principals = list(object({
       type        = string
       identifiers = list(string)
